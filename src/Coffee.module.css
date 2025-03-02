@@ -67,3 +67,18 @@
 .picture {
     margin-right: 5px;
 }
+
+.popular {
+    background-color: #F6C768;
+    display: absolute;
+    font-size: 10px;
+    padding: 2px 11px;
+    border-radius: 20px;
+    font-family: 'DM Sans';
+    transform: translateY(-160px) translateX(10px); 
+    cursor: default;
+}
+
+.pictureWrapper {
+    display: block;
+}

@@ -1,0 +1,20 @@
+.container {
+    background-color: #1B1D1F;
+    display: grid;   
+    grid-template-columns: 550px;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    top: -100px;
+    justify-content: center;
+    background-image: url('/resources/vector.svg');
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+@media only screen and (miwidth: 641px) {
+    .c0{
+        grid-template-columns: 150px;
+    }
+}

@@ -1,0 +1,18 @@
+.headline {
+    font-family: 'DM Sans';
+    font-size: 32px;
+    color: #FEF7EE;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.paragraph {
+    font-family: 'DM Sans';
+    font-size: 14px;
+    color: #6F757C;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 17px;
+    box-sizing: border-box;
+    padding: 10px;
+}

@@ -1,4 +1,4 @@
-☕ Simple Coffee Listing - DevChallenges.io
+☕ Simple Coffee Listing - DevChallenges.io  
 A responsive coffee listing page built as part of DevChallenges.io. This project showcases a list of coffee products with images, names, and prices in a clean, modern UI.
 
 

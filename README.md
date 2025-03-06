@@ -2,14 +2,14 @@
 A responsive coffee listing page built as part of DevChallenges.io. This project showcases a list of coffee products with images, names, and prices in a clean, modern UI.
 
 
-🎯 Features
+🎯 Features  
 
-✅ Fully responsive layout (mobile & desktop)
-✅ Coffee products displayed dynamically
-✅ Styled with CSS Grid/Flexbox
-✅ Uses React + TypeScript
+✅ Fully responsive layout (mobile & desktop)  
+✅ Coffee products displayed dynamically  
+✅ Styled with CSS Grid/Flexbox  
+✅ Uses React + TypeScript  
 
-🛠 Built With
-React + TypeScript
-CSS Modules 
+🛠 Built With  
+React + TypeScript  
+CSS Modules  
 Vite

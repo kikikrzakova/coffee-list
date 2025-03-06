@@ -11,10 +11,13 @@
     background-image: url('/resources/vector.svg');
     background-repeat: no-repeat;
     background-position:top;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-@media only screen and (miwidth: 641px) {
+@media only screen and (min-width: 641px) {
     .c0{
-        grid-template-columns: 150px;
+        width: 900px;
+        grid-template-columns: repeat(3, 300px);
     }
 }

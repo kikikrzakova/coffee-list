@@ -29,16 +29,16 @@ export default function Container(){
 
     if (data && !onlyAvailable) {
         coffeeList = data.map(coffee =>
-            <Coffee coffee={coffee}/>
+            <Coffee coffee={coffee} key={coffee.id}/>
         )
     }
     if (data && onlyAvailable) {
         const availableCoffee = data.filter(coffee => coffee.available);
         coffeeList = availableCoffee.map(coffee =>
-            <Coffee coffee={coffee}/>
+            <Coffee coffee={coffee} key={coffee.id}/>
         ) 
     }
-    return <div className={styles.container}>
+    return <div className={`${styles.container} ${styles.c0}`}>
         <Headline/>
         <Buttons setOnlyAvailable={setOnlyAvailable} onlyAvailable={onlyAvailable}/>
         {data ? coffeeList : null}

@@ -1,7 +1,7 @@
 
 import { CoffeeObject } from "./Container";
 import styles from './Coffee.module.css'
-import Background from "./Background";
+
 
 type PropsType = {
     coffee: CoffeeObject,
@@ -12,7 +12,7 @@ export default function Coffee({coffee}: PropsType){
 
     return (
         <div className={styles.pictureContainer}>
-            <div className="pictureWrapper">
+            <div className={styles.pictureWrapper}>
                 <img src={coffee.image} className={styles.coffeePicture}></img>
                 {coffee.popular ? <button className={styles.popular}>Popular</button> : ""}
             </div>

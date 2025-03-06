@@ -3,7 +3,6 @@ A responsive coffee listing page built as part of DevChallenges.io. This project
 
 
 🎯 Features  
-
 ✅ Fully responsive layout (mobile & desktop)  
 ✅ Coffee products displayed dynamically  
 ✅ Styled with CSS Grid/Flexbox  

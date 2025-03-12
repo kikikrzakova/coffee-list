@@ -13,7 +13,7 @@ export default function Coffee({coffee}: PropsType){
     return (
         <div className={styles.pictureContainer}>
             <div className={styles.pictureWrapper}>
-                <img src={coffee.image} className={styles.coffeePicture}></img>
+                <img src={coffee.image} className={styles.coffeePicture} alt="coffee"></img>
                 {coffee.popular ? <button className={styles.popular}>Popular</button> : ""}
             </div>
             <div className={styles.namePrice}>
